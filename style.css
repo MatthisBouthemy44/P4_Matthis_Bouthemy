@@ -771,7 +771,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #D8400B;
 }
 
 .tc-white {
@@ -779,8 +779,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #D8400B;
+    color: #FEFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -824,6 +824,38 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+/*Mon Code*/
+ /* background:#D8400B
+ color: #FEFFFF*/
+
+p{
+    font-size: 15px;
+}
+
+.title-rea{
+    font-size: 25px;
+}
+
+.quote{
+    font-size: 20px;
+}
+.quote-caption{
+    margin-top: -25px;
+    font-size: 13px;
+}
+.agence-description{
+    font-size: 22px;
+}
+#hfooter{
+    color: #FEFFFF !important;
+}
+
+#white-title{
+    color: white;
+}
+
+
 
 @media (max-width: 1024px) {
     .bloc {
