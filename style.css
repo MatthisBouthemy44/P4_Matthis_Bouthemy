@@ -704,6 +704,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
 }
 
 h2 {
@@ -866,6 +867,16 @@ p{
     margin-left: 10px;
     height: 25px;
 }
+
+.imgdiapo{
+    margin-left: 20px;
+}
+
+#message{
+    margin-top: 20px;
+}
+
+
 
 
 @media (max-width: 1024px) {
@@ -1069,6 +1080,7 @@ p{
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
@@ -1081,5 +1093,14 @@ p{
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .imgdiapo{
+        margin-left: 60px;
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-evenly;
     }
 }
